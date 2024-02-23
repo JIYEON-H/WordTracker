@@ -1,15 +1,15 @@
-# WordTracking program (Data Structure)
+## WordTracking program
 
-## Program Language Used & Version
+### Program Language Used & Version
 -Java / Version 1.8.0_202
 
-## IDE Used
+### IDE Used
 -Eclipse
 
-## Introduction
+### Introduction
 -This is a word tracking program can store all the words in text files with file name and line numbers, it will display words in Alphabetic Order .
 
-## Installation & Usage
+### Installation & Usage
 1. Check your JDK version, using 'java -version', or 'javac -version' on the terminal. It should be higher than 1.8.0_202.
 2. If you cannot check any on terminal. You should download it first to use this program.
 3. Open the terminal, and compile the Java Jar file by following command.
@@ -23,7 +23,7 @@
  	- '-f' (optional) argument to redirect the report in the previous step to the path and filename specified in 'output.txt'
 
 
-## Limitations
+### Limitations
 -This program is designed for tracking words with file name and line numbers.
 -To run this program, it requires at least 2 options like fileName or path, and print option(pf, pl, or po). If you do not provide that information. It won't work.
 -Provide an absolute path if the program cannot find the file name.
@@ -33,6 +33,7 @@
 
 
 ## File Path
+```text
 WordTracker
 ├── src
 │   ├── application
@@ -54,3 +55,4 @@ WordTracker
 └── res
     ├── processedFiles.txt	
     └── textfile.txt
+```
